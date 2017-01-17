@@ -10,7 +10,7 @@
     - on [window](http://stackoverflow.com/questions/7327099/how-to-install-apache-bench-on-windows-7)
     - on [linux ubuntu](http://www.sotechdesign.com.au/how-to-install-just-ab-apachebench-on-debian-or-ubuntu/)
 
-webserver runs on port 8001
+webserver runs on default port 8001.
 
 ## diagnosing memleak
 

@@ -1,5 +1,5 @@
 require('dotenv').config();
-var port = 8001;
+var port = process.env.PORT || 8001;
 var express = require('express');
 var bodyParser = require('body-parser');
 var http = require('http');
@@ -24,7 +24,6 @@ function send(req, res){
       else {
         var json = JSON.parse(req.body.data);
         sendToEventhub(json, function(){ res.status(200).send();});
-
       }
        
 

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/geoffreysamper/try-repo-memleak#readme",
   "dependencies": {
+    "amqp10": "^3.1.5",
     "amqp10-link-cache": "^1.2.1",
     "body-parser": "^1.15.2",
     "dotenv": "^4.0.0",

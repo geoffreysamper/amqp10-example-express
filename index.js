@@ -14,6 +14,8 @@ server.listen(port, function () {
 });
 
 app.post('/send', send);
+//expose the same url you can ignore this. It only done for a load testing scenario
+app.post('/t',send);
 
 
 function send(req, res){
@@ -34,7 +36,7 @@ function send(req, res){
 }
 
 
-app.get("/", function (req,res){res.send('ok')});
+app.get("/", function (req,res){res.send('event hub example ok\n')});
 
 
 
